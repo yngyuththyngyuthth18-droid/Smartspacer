@@ -71,6 +71,27 @@
     <string name="widget_configuration_mock_complication_title">Komplikasjon</string>
     <string name="widget_configuration_material_you_title">Material You style</string>
     <string name="widget_configuration_material_you_description">Use dynamic Material You styling for the widget\n\n<b>Note:</b> Enabling this option may cause sizing issues with some Targets.</string>
+    <!-- Widget Pinning Section -->
+    <string name="widget_configuration_pin_title">Widget Pinning</string>
+    <string name="widget_configuration_pin_description">Pin this widget to show specific content. Useful when stacking multiple Smartspacer widgets to simulate a scrollable Smartspace experience.</string>
+    <!-- Pin Mode -->
+    <string name="widget_configuration_pin_mode_label">Pin Mode</string>
+    <string name="widget_configuration_pin_mode_none">None (cycle through all)</string>
+    <string name="widget_configuration_pin_mode_page">Pin to Page Position</string>
+    <string name="widget_configuration_pin_mode_target">Pin to Specific Target</string>
+    <!-- Page Mode -->
+    <string name="widget_configuration_pin_page_label">Page Position</string>
+    <string name="widget_configuration_pin_page_value">Page %1$d</string>
+    <string name="widget_configuration_pin_page_warning"><b>How Page Pinning Works:</b> This widget will always show whatever target is at the selected page position. Page content changes dynamically - the target shown may vary based on which targets are currently active and their priorities.</string>
+    <!-- Target Mode -->
+    <string name="widget_configuration_pin_target_label">Select Target</string>
+    <string name="widget_configuration_pin_target_none">Tap to select…</string>
+    <string name="widget_configuration_pin_target_warning"><b>How Target Pinning Works:</b> This widget will always try to show the selected target. If the target becomes unavailable (e.g., no music playing for a music target, or requirements not met), the fallback behavior below determines what to show instead.</string>
+    <!-- Fallback (shared) -->
+    <string name="widget_configuration_pin_fallback_label">When Unavailable</string>
+    <string name="widget_configuration_pin_fallback_show_date">Show date</string>
+    <string name="widget_configuration_pin_fallback_show_first">Show first available target</string>
+    <string name="widget_configuration_pin_fallback_hide">Hide widget content</string>
     <string name="widget_options_configure">Rediger modulen</string>
     <string name="accessibility_service_label">Smartspacer-modultjeneste</string>
     <string name="accessibility_service_description">Slår på Smartspacers modul for å holde mål og komplikasjoner oppdatert uten å tømme batteriet raskere ved å alltid kjøre dem.\n\n NB: Denne funkjonen trengs ikke hvis «Forbedret modus» er slått på.</string>
@@ -120,9 +141,6 @@
     <string name="target_at_a_glance_label">Kort fortalt (Modul)</string>
     <string name="target_at_a_glance_description">Begrensede mål fra Google sin «Kort fortalt», innlastet av Google-modulen</string>
     <string name="target_at_a_glance_description_unsupported">Dette målet krever Google-appen</string>
-    <string name="target_google_weather_forecast_title">Google-værvarsel</string>
-    <string name="target_google_weather_forecast_content">Viser været for øyeblikket og værvarslet for de neste fire timene fra Google Vær</string>
-    <string name="target_google_weather_forecast_incompatible">This Target requires a Pixel device or Pixel-based ROM, with the Google app installed</string>
     <string name="target_notification_warning_title">Varslingslytteren er deaktivert</string>
     <string name="target_notification_warning_description">Trykk for å aktivere</string>
     <string name="complication_default_label">«Kort fortalt»-komplikasjoner</string>
@@ -887,7 +905,6 @@
     <string name="github">GitHub</string>
     <string name="libraries">Third party libraries</string>
     <string name="donate">Donate</string>
-    <string name="twitter">Follow me on Twitter</string>
     <string name="about_version">Version %1s\nCreated by Kieron Quinn</string>
     <string name="about_contributors">Contributors</string>
     <string name="about_crowdin">Crowdin</string>
@@ -974,7 +991,6 @@
     <string name="target_default_settings_hide_calendar">Calendar</string>
     <string name="target_default_settings_hide_work_profile">Work Profile</string>
     <string name="target_default_settings_hide_food">Food &amp; Household Orders</string>
-    <string name="target_default_settings_cross_device_timer">Cross-device Timer</string>
     <!-- Notification Target -->
     <string name="target_notification_configuration_app_title">Select App</string>
     <string name="target_notification_configuration_app_content">Select app to show notifications from</string>

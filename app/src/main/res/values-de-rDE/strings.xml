@@ -71,6 +71,27 @@
     <string name="widget_configuration_mock_complication_title">Komplikation</string>
     <string name="widget_configuration_material_you_title">\"Material You\"-Stil</string>
     <string name="widget_configuration_material_you_description">Verwende den dynamischen \"Material You\" Stil für das Widget. \n\n<b>Hinweis:</b> Das Aktivieren dieser Option kann bei einigen Zielen zu Größenproblemen führen.</string>
+    <!-- Widget Pinning Section -->
+    <string name="widget_configuration_pin_title">Widget Pinning</string>
+    <string name="widget_configuration_pin_description">Pin this widget to show specific content. Useful when stacking multiple Smartspacer widgets to simulate a scrollable Smartspace experience.</string>
+    <!-- Pin Mode -->
+    <string name="widget_configuration_pin_mode_label">Pin Mode</string>
+    <string name="widget_configuration_pin_mode_none">None (cycle through all)</string>
+    <string name="widget_configuration_pin_mode_page">Pin to Page Position</string>
+    <string name="widget_configuration_pin_mode_target">Pin to Specific Target</string>
+    <!-- Page Mode -->
+    <string name="widget_configuration_pin_page_label">Page Position</string>
+    <string name="widget_configuration_pin_page_value">Page %1$d</string>
+    <string name="widget_configuration_pin_page_warning"><b>How Page Pinning Works:</b> This widget will always show whatever target is at the selected page position. Page content changes dynamically - the target shown may vary based on which targets are currently active and their priorities.</string>
+    <!-- Target Mode -->
+    <string name="widget_configuration_pin_target_label">Select Target</string>
+    <string name="widget_configuration_pin_target_none">Tap to select…</string>
+    <string name="widget_configuration_pin_target_warning"><b>How Target Pinning Works:</b> This widget will always try to show the selected target. If the target becomes unavailable (e.g., no music playing for a music target, or requirements not met), the fallback behavior below determines what to show instead.</string>
+    <!-- Fallback (shared) -->
+    <string name="widget_configuration_pin_fallback_label">When Unavailable</string>
+    <string name="widget_configuration_pin_fallback_show_date">Show date</string>
+    <string name="widget_configuration_pin_fallback_show_first">Show first available target</string>
+    <string name="widget_configuration_pin_fallback_hide">Hide widget content</string>
     <string name="widget_options_configure">Widget konfigurieren</string>
     <string name="accessibility_service_label">Smartspacer Widget-Dienst</string>
     <string name="accessibility_service_description">Ermöglicht es dem Smartspacer-Widget, Ziele und Komplikationen auf dem neuesten Stand zu halten, ohne den Akku zu belasten, weil es ständig läuft.\n\nHinweis: Dies ist nicht erforderlich, wenn du den erweiterten Modus aktiviert hast.</string>
@@ -120,9 +141,6 @@
     <string name="target_at_a_glance_label">Auf einen Blick (Widget)</string>
     <string name="target_at_a_glance_description">Eingeschränkte Ziele von Google Auf einen Blick, geladen über das Google-Widget</string>
     <string name="target_at_a_glance_description_unsupported">Dieses Ziel erfordert die Google-App</string>
-    <string name="target_google_weather_forecast_title">Google Wettervorhersage</string>
-    <string name="target_google_weather_forecast_content">Zeigt das aktuelle Wetter und die Vorhersage für die nächsten vier Stunden von Google Wetter an</string>
-    <string name="target_google_weather_forecast_incompatible">Dieses Ziel erfordert ein Pixel-Gerät oder ein Pixel-basiertes ROM, auf dem die Google-App installiert ist</string>
     <string name="target_notification_warning_title">Benachrichtigungs-Listener deaktiviert</string>
     <string name="target_notification_warning_description">Zum Aktivieren tippen</string>
     <string name="complication_default_label">Auf einen Blick Komplikationen</string>
@@ -889,7 +907,6 @@ Möglicherweise muss auch GPS aktiviert sein, damit Geräte und Verbindungen im 
     <string name="github">GitHub</string>
     <string name="libraries">Fremd-Bibliotheken</string>
     <string name="donate">Spenden</string>
-    <string name="twitter">Folge mir auf Twitter</string>
     <string name="about_version">Version %1s\nErstellt von Kieron Quinn</string>
     <string name="about_contributors">Mitwirkende</string>
     <string name="about_crowdin">Crowdin</string>
@@ -976,7 +993,6 @@ Möglicherweise muss auch GPS aktiviert sein, damit Geräte und Verbindungen im 
     <string name="target_default_settings_hide_calendar">Kalender</string>
     <string name="target_default_settings_hide_work_profile">Arbeitsprofil</string>
     <string name="target_default_settings_hide_food">Lebensmittel- &amp; Haushaltswarenbestellungen</string>
-    <string name="target_default_settings_cross_device_timer">Geräteübergreifender Timer</string>
     <!-- Notification Target -->
     <string name="target_notification_configuration_app_title">App auswählen</string>
     <string name="target_notification_configuration_app_content">Wähle App von der Benachrichtigungen angezeigt werden sollen</string>

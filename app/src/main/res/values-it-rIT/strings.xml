@@ -4,7 +4,6 @@
     <string name="dummy_home_content">Questa schermata esiste per aggirare i Widget mal implementati utilizzati dai Plugin Smartspacer.\n\nSmartspacer non può essere impostato come launcher, si prega di selezionarne un altro.</string>
     <string name="dummy_home_open_settings">Apri le Impostazioni</string>
     <string name="notification_service">Servizio Notifiche di Smartspacer</string>
-
     <string name="loading">Caricamento…</string>
     <string name="saving">Salvataggio…</string>
     <string name="search">Cerca</string>
@@ -72,6 +71,27 @@
     <string name="widget_configuration_mock_complication_title">Complicazione</string>
     <string name="widget_configuration_material_you_title">Stile Material You</string>
     <string name="widget_configuration_material_you_description">Usa lo stile Material You dinamico per il widget\n\n<b>Nota:</b> Abilitare questa opzione potrebbe causare problemi di dimensionamento con alcuni Target.</string>
+    <!-- Widget Pinning Section -->
+    <string name="widget_configuration_pin_title">Fissare widget</string>
+    <string name="widget_configuration_pin_description">Fissa questo widget per scoprire contenuti specifici. Utile per quando si impilano diversi widget Smartspacer per simulare un\'esperienza di Smartspace scorrevole.</string>
+    <!-- Pin Mode -->
+    <string name="widget_configuration_pin_mode_label">Modalità pin</string>
+    <string name="widget_configuration_pin_mode_none">Niente (ciclare attraverso tutti)</string>
+    <string name="widget_configuration_pin_mode_page">Blocca nella posizione della pagina</string>
+    <string name="widget_configuration_pin_mode_target">Blocca su un obiettivo specifico</string>
+    <!-- Page Mode -->
+    <string name="widget_configuration_pin_page_label">Posizione della pagina</string>
+    <string name="widget_configuration_pin_page_value">Pagina %1$d</string>
+    <string name="widget_configuration_pin_page_warning"><b>How Page Pinning Works:</b> This widget will always show whatever target is at the selected page position. Page content changes dynamically - the target shown may vary based on which targets are currently active and their priorities.</string>
+    <!-- Target Mode -->
+    <string name="widget_configuration_pin_target_label">Select Target</string>
+    <string name="widget_configuration_pin_target_none">Tap to select…</string>
+    <string name="widget_configuration_pin_target_warning"><b>How Target Pinning Works:</b> This widget will always try to show the selected target. If the target becomes unavailable (e.g., no music playing for a music target, or requirements not met), the fallback behavior below determines what to show instead.</string>
+    <!-- Fallback (shared) -->
+    <string name="widget_configuration_pin_fallback_label">When Unavailable</string>
+    <string name="widget_configuration_pin_fallback_show_date">Show date</string>
+    <string name="widget_configuration_pin_fallback_show_first">Show first available target</string>
+    <string name="widget_configuration_pin_fallback_hide">Hide widget content</string>
     <string name="widget_options_configure">Configura Widget</string>
     <string name="accessibility_service_label">Servizio Widget di Smartspacer</string>
     <string name="accessibility_service_description">Abilita il Widget Smartspacer per tenere i Target e le Complicazioni aggiornati, senza scaricare la batteria avendoli sempre in esecuzione.\n\nNota: Questo non è necessario se la Modalità Avanzata è abilitata.</string>
@@ -121,9 +141,6 @@
     <string name="target_at_a_glance_label">A Colpo d\'Occhio (Widget)</string>
     <string name="target_at_a_glance_description">Limita Target da A Colpo d\'Occhio di Google, caricati utilizzando il Widget di Google</string>
     <string name="target_at_a_glance_description_unsupported">Questo Target richiede l\'app Google</string>
-    <string name="target_google_weather_forecast_title">Previsioni Meteo Google</string>
-    <string name="target_google_weather_forecast_content">Mostra meteo attuale e le previsioni per le prossime quattro ore da Google Meteo</string>
-    <string name="target_google_weather_forecast_incompatible">Questo Target richiede un dispositivo Pixel o una ROM basata su Pixel, con l\'app Google installata</string>
     <string name="target_notification_warning_title">Intercettazione delle notifiche disabilitata</string>
     <string name="target_notification_warning_description">Tocca per abilitare</string>
     <string name="complication_default_label">Complicazioni di A Colpo d\'Occhio</string>
@@ -888,7 +905,6 @@
     <string name="github">GitHub</string>
     <string name="libraries">Librerie di terze parti</string>
     <string name="donate">Dona</string>
-    <string name="twitter">Seguimi su Twitter</string>
     <string name="about_version">Versione %1s\nCreata da Kieron Quinn</string>
     <string name="about_contributors">Contributori</string>
     <string name="about_crowdin">Crowdin</string>
@@ -975,7 +991,6 @@
     <string name="target_default_settings_hide_calendar">Calendario</string>
     <string name="target_default_settings_hide_work_profile">Profilo di Lavoro</string>
     <string name="target_default_settings_hide_food">Cibo e Ordini in Famiglia</string>
-    <string name="target_default_settings_cross_device_timer">Timer su Altri Dispositivi</string>
     <!-- Notification Target -->
     <string name="target_notification_configuration_app_title">Seleziona App</string>
     <string name="target_notification_configuration_app_content">Seleziona l\'app da cui mostrare le notifiche</string>
